@@ -143,10 +143,17 @@ header {
     margin-bottom: 48px;
 }
 
+
+
 #project-images {
     /* width: 100%;
     height: 277px; */
     border-top: 1.5px solid #D6DDE633;
+}
+
+.project:hover {
+    transition-duration: 0.2s;
+    transform: scale(1.2);
 }
 
 .project-name {
@@ -279,6 +286,11 @@ header {
     cursor: pointer;
 }
 
+.cyberpunk-art button:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
 
 #about {
     height: 504px;
@@ -360,7 +372,8 @@ input[id="first-name"],input[id="last-name"],input[id="email"] {
     height: 44px;
     border-radius: 12px;
     padding: 12px;
-    color: rgba(255, 255, 255, 0.04);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: white;
     margin-bottom: 16px;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
     font-family: Plus Jakarta Sans;
@@ -377,7 +390,8 @@ input[id="placeholder"] {
     height: 124px;
     border-radius: 12px;
     padding: 12px;
-    color: rgba(255, 255, 255, 0.04);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: white;
     margin-bottom: 16px;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
     font-family: sans-serif;
@@ -405,6 +419,11 @@ input[type="button"] {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     cursor: pointer;
+}
+
+input[type="button"]:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
 }
 
 
