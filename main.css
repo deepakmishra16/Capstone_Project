@@ -694,9 +694,15 @@ footer {
         display: flex;
         flex-direction: column;
         margin: 0;
+        display: none;
     }
-    .title, .socials {
-        margin: 20px;
+
+    .socials {
+        display: none;
+    }
+
+    .title {
+        margin: 0 auto;
     }
 
     .page-links p {
@@ -721,6 +727,21 @@ footer {
     .projects-overview {
         display: flex;
         flex-direction: column;
+        margin-left: 180px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .project{
+        margin: 20px 0px;
+        /* width: 100vh; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project img {
+        /* width: 95vh; */
+        /* height: 400px; */
     }
 
     #title-section {
@@ -731,4 +752,23 @@ footer {
         margin-bottom: 20px;
     }
 
+    .cyberpunk-art-with-cutout-image {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    #contact-me {
+        display: block;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .services-heading p {
+        text-decoration: underline;
+        font-size: 35px;
+    }
 }
