@@ -666,13 +666,14 @@ footer {
 @media (max-width: 768px) {
 
     body {
-        width: 100vh;
+        max-width: 768px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
     header {
         height: auto;
+        max-width: 700px;
         width: 100vh;
         display: flex;
         align-items: center;
@@ -709,9 +710,13 @@ footer {
         margin-bottom: 0;
     }
 
+    .main-container {
+        max-width: 768px;
+    }
     .tagline-and-image {
         width: 100vh;
         height: 600px;
+        max-width: 700px;
     }
     
     #tagline {
@@ -739,10 +744,10 @@ footer {
         justify-content: center;
     }
 
-    .project img {
-        /* width: 95vh; */
-        /* height: 400px; */
-    }
+    /* .project img {
+        width: 95vh;
+        height: 400px;
+    } */
 
     #title-section {
         display: block;
@@ -756,11 +761,21 @@ footer {
         display: flex;
         flex-direction: column;
         height: auto;
-        width: auto;
+        max-width: 700px;
+        align-items: left;
+    }
+
+    .cyberpunk-art-title {
+        font-size: 50px;
+    }
+
+    #about div {
+        width: 100%;
     }
 
     #contact-me {
         display: block;
+        max-width: 700px;
     }
 
     .services {
@@ -770,5 +785,9 @@ footer {
     .services-heading p {
         text-decoration: underline;
         font-size: 35px;
+    }
+
+    .testimonial {
+        max-width: 700px;
     }
 }
