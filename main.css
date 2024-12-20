@@ -12,13 +12,13 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 96px;
     padding-top: 24px;
 }
 
 .header {
-    width: 80%;
+    width: 75vw;
     height: 72px;
     border: 1.5px;
     border-radius: 16px;
@@ -152,8 +152,9 @@ header {
 }
 
 .project:hover {
-    transition-duration: 0.2s;
-    transform: scale(1.2);
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+    /* width: 600px; */
 }
 
 .project-name {
@@ -293,6 +294,7 @@ header {
 
 
 #about {
+    width: 100vw;
     height: 504px;
     padding: 96px 0px;
 }
@@ -690,7 +692,7 @@ footer {
 @media (max-width: 768px) {
 
     body {
-        max-width: 768px;
+        width: 50vw;
         padding-left: 10px;
         padding-right: 10px;
     }
